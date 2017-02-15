@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="UTF-8">
+    <title>Hang Man</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+  </head>
+  <body>
+
+    <!-- When we start, playing the game, our HTML will be placed into this div. -->
+    <div class="page-header jumbotron">
+        <h1>Hangman!!</small></h1>
+    </div>
+    
+
+    <div class="container">
+        <div class="col-md-4">
+          <img src="assets/images/images.jpg" class="thumbnail" alt="music">
+        </div>
+    
+        <div class="col-md-8">
+          <h2>Theme : Music artists</h2>
+          <h2> Press any key to get started !</h2>
+          <p>WINS :<span id="win-counter"></span></p>
+          <p>CURRENT WORD:</p>
+          <h3 id="word-blank"></h3>
+          <p>NO OF GUESSES REMAINING :<span id="guesses-left" ></span></p>
+          <p>LETTERS ALREADY GUESSED :<span id="wrong-guesses"></span></p>
+          
+          <p>LOSSES: <span id ="loss-counter"></span></p>
+        </div>
+    </div>
+
+  <script src="assets/javascript/game.js"></script>
+
+  </body>
+</html>
