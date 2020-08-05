@@ -2,7 +2,7 @@
 # Hangman-Game
 
 ### Overview
-In this assignment, you'll create one of two possible computer games: Hangman or Psychic. These apps will run in the browser, and feature dynamically updated HTML powered by your JavaScript code.
+In this assignment, you'll create computer games: Hangman. These apps will run in the browser, and feature dynamically updated HTML powered by your JavaScript code.
 
 ### Before You Begin
 1. Create a new GitHub repo.Then, clone it to your computer.
